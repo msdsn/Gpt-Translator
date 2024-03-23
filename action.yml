@@ -1,0 +1,13 @@
+name: 'Gitbook Translator'
+description: 'Translate markdown files to multiple languages using gpt-3.5'
+inputs:
+  api_key:
+    description: 'OpenAI API key'
+    required: true
+  target_language:
+    description: 'Target languages to translate the markdown files'
+    required: true
+
+runs:
+  using: 'node20'
+  main: 'index.js'
