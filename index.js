@@ -36,4 +36,5 @@ diffLines.forEach(line => {
     }
 });
 
+// Değişiklikleri yazdır
 console.log(JSON.stringify(changes, null, 2));
